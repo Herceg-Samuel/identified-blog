@@ -32,6 +32,8 @@ jobs:
       
       - name: Build
         run: cd my-blog && npm run build
+        env:
+          NODE_ENV: production
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
