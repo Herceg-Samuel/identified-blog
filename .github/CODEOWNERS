@@ -1,0 +1,16 @@
+# These owners will be the default owners for everything in the repo
+* @Herceg-Samuel
+
+# These owners will be responsible for all Next.js related files
+/src/app/ @Herceg-Samuel
+/src/components/ @Herceg-Samuel
+
+# These owners will be responsible for all configuration files
+*.config.js @Herceg-Samuel
+*.config.ts @Herceg-Samuel
+package.json @Herceg-Samuel
+tsconfig.json @Herceg-Samuel
+
+# These owners will be responsible for all documentation
+*.md @Herceg-Samuel
+/docs/ @Herceg-Samuel 
